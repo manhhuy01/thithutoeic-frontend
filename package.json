@@ -1,0 +1,41 @@
+{
+  "name": "thithutoeic-frontend",
+  "version": "0.0.1",
+  "description": "front-end thi thu toeic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --port 3333 --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhhuy01/thithutoeic-frontend.git"
+  },
+  "keywords": [
+    "toeic"
+  ],
+  "author": "manhhuy01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manhhuy01/thithutoeic-frontend/issues"
+  },
+  "homepage": "https://github.com/manhhuy01/thithutoeic-frontend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
